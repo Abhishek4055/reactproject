@@ -1,0 +1,55 @@
+
+body{
+  margin: 0;
+  padding: 0;
+
+}
+.row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+.col-1{
+  flex: 1;
+}
+.col-2{
+  flex: 2;
+}
+.header{
+  background-color: black;
+  color: white;
+  padding: 1;
+  
+}
+
+.main{
+  background-color: rgb(190, 184, 184);
+  color: rgb(0, 0, 0);
+  padding: 1rem;
+  width: 80%;
+  border-radius: 5px;
+  margin: auto;
+  
+}
+
+.row.center{
+  align-items: center;
+}
+img.small{
+  max-width: 10rem;
+}
+.item{
+  
+  background-color: rgb(158, 154, 158);
+  width: 30%;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+.dropdown{
+  margin: 2rem auto;
+  font-size:larger;
+}
+.price{
+  
+ font-size: xx-large;
+}
